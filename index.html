@@ -594,13 +594,13 @@
     if(!question){ err.textContent='Please type your question.'; msg.focus(); return; }
     if(n>150){ err.textContent='Please keep your question within 150 words.'; msg.focus(); return; }
     if(document.getElementById('qBot').checked){ return; } /* honeypot */
-    if(WEB3FORMS_KEY === 'YOUR_WEB3FORMS_ACCESS_KEY'){ err.textContent='Form not configured yet — add your Web3Forms key.'; return; }
+    if(WEB3FORMS_KEY === '02c451d5-8d99-437b-b554-482dbe75f580'){ err.textContent='Form not configured yet — add your Web3Forms key.'; return; }
     qSubmitBtn.disabled=true; qSubmitBtn.textContent='Sending…';
     try{
       const res = await fetch('https://api.web3forms.com/submit', {
         method:'POST', headers:{'Content-Type':'application/json','Accept':'application/json'},
         body: JSON.stringify({
-          access_key: WEB3FORMS_KEY,
+          access_key: 02c451d5-8d99-437b-b554-482dbe75f580,
           subject: 'Website query — '+name,
           from_name: 'NSOS Website',
           name: name, email: email, replyto: email,
