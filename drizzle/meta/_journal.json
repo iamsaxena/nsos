@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1785842374008,
+      "tag": "0000_handy_unus",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1785842390858,
+      "tag": "0001_wandering_roughhouse",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1785856878406,
+      "tag": "0002_minor_champions",
+      "breakpoints": true
+    }
+  ]
+}

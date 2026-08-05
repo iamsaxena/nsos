@@ -1,0 +1,1 @@
+export async function GET() { return new Response(null, { status: 302, headers: { location: "/adminpanel", "set-cookie": "nsos_google_admin=; Max-Age=0; Path=/; HttpOnly; Secure; SameSite=Lax" } }); }
